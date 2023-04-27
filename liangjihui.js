@@ -20,7 +20,7 @@ var 111 = JSON.parse($response.body);
 
   111.data = {
     "is_pay" : true,
-    "mobile" : "111",
+    "mobile" : "13852811157",
     "experience_card" : true,
     "is_member" : true,
     "end_time" : 20380230
