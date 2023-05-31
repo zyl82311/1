@@ -13,14 +13,17 @@
 hostname = gkbjd.huishoubaojiadan.com
 
 *************************************/
+{
+  "msg" : "success",
+  "data" : {
+"address" : true,
+"delivery_mobile" : true,
+"nick" : true,
+"province" : true,
+"city" : true,
+"area" : true
+  },
+  "code" : 200
+}
 
 
-var zyl = JSON.parse($response.body);
-
-  zyl.data.is_pay = true;
-  zyl.data.experience_card = true;
-  zyl.data.is_member = true;
-  zyl.data.end_time = 4092599349;
-  zyl.data.is_see = true;
-
-$done({body : JSON.stringify(zyl)});
