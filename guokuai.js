@@ -27,3 +27,12 @@ hostname = gkbjd.huishoubaojiadan.com
 }
 
 
+var zyl = JSON.parse($response.body);
+
+  zyl.data.address = true;
+  zyl.data.nick = true;
+  zyl.data.province = true;
+  zyl.data.end_time = 4092599349;
+  zyl.data.city = true;
+  zyl.data.area = true;
+$done({body : JSON.stringify(zyl)});
